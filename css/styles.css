@@ -1,7 +1,33 @@
 body {
-    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+    display: none;
+}
+
+#background {
+    display: table;
+    width: 100%;
+    height: 800px;
+    margin: 5px auto;
+    position: absolute;
+}
+
+#backPicture {
+    position: relative;
+    background-image: url("/img/harrogate-town-1399631019id1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    font-family: monospace
+    font-family: "Bungee", cursive;
+    font-size: 48px;
+    color: #111ab3;
+    text-transform: uppercase;
+    text-align: center;
 }
